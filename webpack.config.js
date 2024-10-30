@@ -79,7 +79,7 @@ const getACSAccessTokenInfo = async (aadToken, userObjectId) => {
 
 module.exports = {
     devtool: 'inline-source-map',
-    mode: 'production',
+    mode: 'development',
     entry: "./src/index.js",
     module: {
         rules: [
