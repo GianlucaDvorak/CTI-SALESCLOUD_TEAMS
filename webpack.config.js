@@ -78,8 +78,8 @@ const getACSAccessTokenInfo = async (aadToken, userObjectId) => {
 }
 
 module.exports = {
-    devtool: 'inline-source-map',
-    mode: 'development',
+    //devtool: 'inline-source-map',
+    mode: 'production',
     entry: "./src/index.js",
     module: {
         rules: [
@@ -114,7 +114,7 @@ module.exports = {
             template: "./public/index.html",
             filename: "./index.html"
         })
-    ],
+    ],/*
     devServer: {
         open: true,
         port: PORT,
@@ -237,5 +237,5 @@ module.exports = {
 
             return middlewares;
         }
-    }
+    }*/
 };

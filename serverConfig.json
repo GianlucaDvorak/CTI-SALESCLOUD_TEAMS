@@ -1,4 +1,4 @@
 {
-    "connectionString": "REPLACE_WITH_CONNECTION_STRING",
+    "connectionString": "endpoint=https://ctisalescloudgdvo.switzerland.communication.azure.com/;accesskey=DdGwXJTFdXFldSYyVmllsxYvMw8K1J0I8JAC3YldBPGA0hKD7FEuJQQJ99AJACULyCpqcDcjAAAAAZCSwanB",
     "functionAppOneSignalTokenRegistrationUrl": ""
 }
